@@ -2,7 +2,7 @@
 
 # Preliminary Steps:
 
-/*
+/* WARNING: Commented out b/c this block cause problems for codes after it.
 CREATE DATABASE IF NOT EXISTS transport; -- Create a new database
 USE transport;
 
@@ -181,7 +181,7 @@ CREATE OR REPLACE VIEW view_dates_holidays AS
 
 COMMIT; -- Save progress
 
-/*
+/* WARNING: Commented out b/c this block cause problems for codes after it.
 DELIMITER $$
 CREATE PROCEDURE update_holiday (IN p_holiday VARCHAR(25), IN p_date DATETIME)
 BEGIN
