@@ -1,5 +1,6 @@
-# Interstate Traffic Analysis : Effects of Holidays and Weather on Traffic-Volume
+# Metro Interstate Traffic Data Cleaning
 
-This is an on-going personal data analysis project that involves data cleaning with MySQL and visual / regression analysis with R 
-(and possibly supplemented with Tableau). The purpose of the project is to see trends in traffic patterns as certain holidays and 
-weather phenomena impacts west-bound I-94, near Minneapolis and St. Paul in Minnesota.
+In this project, I attempted to cleanse and transform a traffic volume data spanning from late 2012 to mid 2018.
+The goal is to make it fit for the linear regression analysis, especially using the holidays as dummy variables.
+
+**Data Source**: [Metro Interstate Traffic Volume, UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume])
